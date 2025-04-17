@@ -14,8 +14,8 @@ const MainBanner = () => {
       Freshness You Can Trust, Savings You Will Love!</h1>
    
    <div className='flex items-center mt-6 font-medium'>
-   <Link to={"/products"} className='group flex items-center gap-2 px-7 md:px-9 py-3 bg-primary
-    hover:bg-primary-dull transition rounded text-white cursor-pointer'>
+   <Link to={"/products"} className='group flex items-center gap-2 px-7 md:px-9 py-3 bg-sucess
+    hover:bg-primary-dull transition rounded text-red cursor-pointer'>
     Shop now
     <img className='md:hidden transition group-focus:translate-x-1' src={assets.white_arrow_icon} alt="arrow"/>
     </Link>
